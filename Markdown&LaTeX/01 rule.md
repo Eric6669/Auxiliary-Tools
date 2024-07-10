@@ -1,18 +1,21 @@
-
 # Hello,$\LaTeX$!
 
-## *文本[Markdown &amp; LaTeX 完全指南 - Rosmarinus - 博客园 (cnblogs.com)](https://www.cnblogs.com/Rosmarinus/articles/15553532.html)*
+[Markdown &amp; LaTeX 完全指南 - Rosmarinus - 博客园 (cnblogs.com)](https://www.cnblogs.com/Rosmarinus/articles/15553532.html)
+
+[LaTeX 数学公式大全 - 洛谷专栏 (luogu.com.cn)](https://www.luogu.com.cn/article/1gxob6zc)
+
+## *文本*
 
 * 不允许出现任何英文标点；
 * 英文单词与汉字之间需要空格，与标点之间无需空格；
 * 对于一般的句子，句末需加上中文句号 `。`。
 
-## *公式块[LaTeX 数学公式大全 - 洛谷专栏 (luogu.com.cn)](https://www.luogu.com.cn/article/1gxob6zc)*
+## *公式块*
 
 * 公式块主要用于表示公式、变量及一般数字；
 * 任何脱离公式块存在的公式、变量及一般数字均是不被允许的。
 
-    $a,b,c$        $a+b\times c$        $C^a_b+\sqrt{c}$
+  $a,b,c$        $a+b\times c$        $C^a_b+\sqrt{c}$
 
 $$
 \sum_{i=1}^n a_i
@@ -59,3 +62,8 @@ $$
 
 * `$ a+b $` 是不被允许的；
 * `$a+b$`、`$a + b$` 均是符合规范的。
+
+## *代码块*
+
+* 一般代码块：一般代码块可以任意插入与句子中。
+* 特殊代码块：特殊代码块主要用于表示一整段的代码、数据或其他多行的引用内容。
